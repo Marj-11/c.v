@@ -20,6 +20,7 @@
 
 .container-left {
     width: 50%;
+   
 }
 
 .container-right {
@@ -30,7 +31,7 @@
 }
 
 #education-box {
-    line-height: 20px;
+    line-height: 28px;
     margin-top: 50px;
     margin-left: 35px;
 }
@@ -45,20 +46,19 @@ h1 {
     margin-top: 35px;
 }
 
+
 ul {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 13px;
 }
 
 #education-box p:nth-child(3) {
-    margin-top: 7px;
+    margin-top: 5px;
     color: grey;
     font-size: 14px;
 }
 
-#education-box p:nth-child(2) {
-    margin-top: 10px;
-}
+
 
 #internships-box {
     margin-top: 30px;
@@ -90,6 +90,7 @@ ul {
     margin-top: 10px;
 }
 
+
 #extra-box {
     margin-top: 30px;
     margin-left: 35px;
@@ -116,7 +117,7 @@ ul {
 
 #skills-box {
     text-decoration: none;
-    margin-left: 44%;
+    margin-left: 43%;
 }
 
 #skills-box ul {
@@ -129,38 +130,42 @@ ul {
 
 #hobbies-box {
     margin-top: 20px;
-    margin-left: 44%;
+    margin-left: 45.5%;
 }
 
 #languages-box {
-    margin-left: 44%;
+    margin-left: 42.5%;
 }
 
 #languages-box ul {
     list-style: none;
 }
 
-#details-box p:nth-child(2) {
+#details-box p:nth-child(1) {
     margin-top: 8px;
 }
+.green{
+    color: green;
+    margin-top: 18px;
+}
 
-#details-box p:nth-child(4) {
-    color: rgb(0, 89, 255)
+#details-box p:nth-child(3) {
+    color: rgb(0, 102, 255);
 }
 
 #details-box p:nth-child(5) {
     color: grey;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 #details-box p:nth-child(8) {
     color: grey;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 #details-box p:nth-child(10) {
     color: grey;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 i.fas {
@@ -176,6 +181,7 @@ i.fas {
 .lines {
     position: relative;
     margin-bottom: 20px;
+    
 }
 
 .lines .line {
@@ -185,56 +191,64 @@ i.fas {
     display: block;
     background-color: lightgrey;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    transition: width 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    -webkit-transition: width 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    -moz-transition: width 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    -ms-transition: width 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    -o-transition: width 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    animation-delay: 0.5s;
-
+    
 }
-
-
 
 .lines .line:last-child {
-    width:100%;
-    background-color: blue;
-}
-
-@keyframes line-l {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 85%;
-    }
-}
-@keyframes line-sm {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 65%;
-    }
+    width: 100%;
+    background-color: rgb(0, 102, 255);
+    
 }
 
 .photoshop .line:last-child {
     width: 85%;
-    animation-name: line-l;
+}
+.photoshop{
+    margin-top: 10px;
+}
+
+.corel-draw .line:last-child, .threeds-max .line:last-child {
+    width: 65%;
+}
+
+.arabic .line:last-child {
+    width: 100%;
+}
+
+.english .line:last-child {
+    width: 85%;
+}
+
+.german .line:last-child {
+    width: 60%;
+}
+
+.russian .line:last-child {
+    width: 20%;
+}
+
+.arabic{
+    margin-top: 15px;
+}
+.arabic{
+    margin-top: 15px;
+}
+.hobbies{
+    margin-top: 10px;
+}
+
+.hobbies{
+    margin-top: 10px;
+}
+
+.front-end{
+    margin-top: 22px;
+    margin-left: 35px;
     
 }
-
-.corel-draw .line:last-child,
-.threeds-max .line:last-child {
-    width: 65%;
-    animation-name: line-sm;
+.date{
+    margin-top: 10px;
+    color: grey;
+    font-size: 14px;
+    margin-left: 35px;
 }
-
-
-
