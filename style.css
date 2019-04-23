@@ -114,6 +114,9 @@ ul {
     line-height: 23px;
     margin-left: auto;
 }
+.container-right div h4{
+    margin-bottom: 9px;
+}
 
 #skills-box {
     text-decoration: none;
@@ -129,7 +132,7 @@ ul {
 }
 
 #hobbies-box {
-    margin-top: 20px;
+    margin-top: 7px;
     margin-left: 45.5%;
 }
 
@@ -171,7 +174,7 @@ ul {
 i.fas {
     position: absolute;
     top: 2px;
-    left: -26px;
+    left: -30px;
 }
 
 .heading {
@@ -234,12 +237,9 @@ i.fas {
     margin-top: 15px;
 }
 .hobbies{
-    margin-top: 10px;
+    margin-top: 9px;
 }
 
-.hobbies{
-    margin-top: 10px;
-}
 
 .front-end{
     margin-top: 22px;
